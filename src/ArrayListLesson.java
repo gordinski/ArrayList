@@ -10,6 +10,9 @@ public class ArrayListLesson {
         //Добавление по индексу
         toDoList.add(1, "2 todo");
 
+        //Удаление по индексу
+        toDoList.remove(1);
+
         //Быстрая инициализация списка
         ArrayList<String> toDoFast = new ArrayList<>(){{
             add("1 todo");
